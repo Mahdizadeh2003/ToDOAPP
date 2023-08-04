@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ToDOAPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_todos_fragment">hello_todos_fragment</string>
+    <string name="hellow_add_task">Hellow Add Task</string>
 </resources>
