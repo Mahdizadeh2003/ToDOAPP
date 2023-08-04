@@ -11,12 +11,8 @@
         android:label="fragment_add_task"
         tools:layout="@layout/fragment_add_task" />
     <fragment
-        android:id="@+id/currentTTodos"
-        android:name="com.myapplication.currentTodos"
-        android:label="fragment_current_t_todos"
-        tools:layout="@layout/fragment_current_t_todos" >
-        <action
-            android:id="@+id/action_currentTTodos_to_addTask"
-            app:destination="@id/addTask" />
-    </fragment>
+        android:id="@+id/currintTodo"
+        android:name="com.myapplication.currintTodo"
+        android:label="fragment_currint_todo"
+        tools:layout="@layout/fragment_currint_todo" />
 </navigation>
