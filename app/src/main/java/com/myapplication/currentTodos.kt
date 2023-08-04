@@ -18,9 +18,6 @@ class currentTodos : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val textView = view.findViewById<TextView>(R.id.textView1)
-        textView.setOnClickListener {
-            Navigation.findNavController(textView).navigate(R.id.action_currentTTodos_to_addTask)
-        }
+
     }
 }
