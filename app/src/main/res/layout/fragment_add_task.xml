@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddTask">
+    tools:context=".fragment.AddTask">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -91,13 +91,16 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
-        android:hint="Date"
+        android:hint="@string/date"
         app:endIconDrawable="@drawable/baseline_date_range"
         app:endIconMode="custom">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dateTextInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
             android:lines="2"
             android:textColorHint="#8D6E63"
             tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
@@ -111,7 +114,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:backgroundTint="#009688"
-        android:text="Add Task"
+        android:text="@string/add_task"
         android:textColor="#33201F"
         android:textSize="16sp"
         android:textStyle="bold" />

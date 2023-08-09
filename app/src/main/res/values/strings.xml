@@ -10,4 +10,6 @@
     <string name="add_discription">Add Discription</string>
     <string name="discription">Discription</string>
     <string name="titile">titile</string>
+    <string name="add_task">Add Task</string>
+    <string name="date">Date</string>
 </resources>

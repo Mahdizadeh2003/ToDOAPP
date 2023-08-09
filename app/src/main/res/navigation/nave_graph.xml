@@ -3,16 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nave_graph"
-    app:startDestination="@id/addTask">
+    app:startDestination="@id/currentTTodos">
 
     <fragment
         android:id="@+id/addTask"
-        android:name="com.myapplication.AddTask"
+        android:name="com.myapplication.fragment.AddTask"
         android:label="fragment_add_task"
-        tools:layout="@layout/fragment_add_task" />
+        tools:layout="@layout/fragment_add_task" >
+        <action
+            android:id="@+id/action_addTask_to_currentTTodos"
+            app:destination="@id/currentTTodos" />
+    </fragment>
     <fragment
         android:id="@+id/currentTTodos"
-        android:name="com.myapplication.currentTodos"
+        android:name="com.myapplication.fragment.currentTodos"
         android:label="fragment_current_t_todos"
         tools:layout="@layout/fragment_current_t_todos" >
         <action
