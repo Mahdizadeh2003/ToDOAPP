@@ -36,6 +36,7 @@ class AddTask : Fragment() {
                 binding.descriptionEditText.editText?.text.toString(),
                 "$hour:$minute", fullDate, false
             )
+            todoList.add(newTodo)
             Navigation.findNavController(binding.addTaskBTN)
                 .navigate(R.id.action_addTask_to_currentTTodos)
         }
