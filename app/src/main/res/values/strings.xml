@@ -12,4 +12,5 @@
     <string name="titile">titile</string>
     <string name="add_task">Add Task</string>
     <string name="date">Date</string>
+    <string name="todo">TODO</string>
 </resources>

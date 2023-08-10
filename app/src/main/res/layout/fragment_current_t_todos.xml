@@ -30,7 +30,8 @@
         android:src="@drawable/baseline_add_task_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
