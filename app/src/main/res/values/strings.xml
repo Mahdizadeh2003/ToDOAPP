@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ToDOAPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_todos_fragment">hello_todos_fragment</string>
+    <string name="hellow_add_task">Hellow Add Task</string>
+    <string name="add_titile_task">Add Titile Task</string>
+    <string name="label">label</string>
+    <string name="set_date">Set date</string>
+    <string name="add_discription">Add Discription</string>
+    <string name="discription">Discription</string>
+    <string name="titile">titile</string>
+    <string name="add_task">Add Task</string>
+    <string name="date">Date</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -1,13 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
     <style name="Base.Theme.ToDOAPP" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Customize your light theme here. -->
         <item name="android:statusBarColor">@color/green</item>
-       <item name="colorPrimary">@color/green</item>
-
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:colorSecondary">@color/blue</item>
 
     </style>
-
-    <style name="Theme.ToDOAPP" parent="Base.Theme.ToDOAPP" />
-
 </resources>
